@@ -15,7 +15,7 @@ function isTriangle() {
   }
   var sumOfAngles = calculateSumOfAngle(angle1, angle2, angle3);
   if (sumOfAngles === 180) {
-    outputDiv.innerText = "The angles form a Triangle📐";
+    outputDiv.innerText = "The angles form a Triangle🥳";
   } else {
     outputDiv.innerText = "The angles don't form a triangle❌";
   }

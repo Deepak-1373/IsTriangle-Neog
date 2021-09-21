@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Triangle Quiz</title>
+    <title>Is Triangle? 🔍</title>
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
+    <nav class="navigation nav-container">
+      <div class="nav-brand">Fun With Triangles 📐</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="../index.html">Is Triangle</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="#">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="./hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="./areaOfTriangle.html">Area of Triangle</a>
+        </li>
+      </ul>
+    </nav>
     <div class="container">
+      <h1>Quiz on Triangles❓</h1>
       <form class="quiz-form">
         <div class="question-container">
           <p>
@@ -38,6 +57,29 @@
           <label
             ><input type="radio" name="question2" value="rightangled" />Right
             Angled
+          </label>
+        </div>
+
+        <div class="question-container">
+          <p>What do you call a triangle whose sides are all equal?</p>
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="Equilateral"
+            />Equilateral
+          </label>
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="
+            Isosceles"
+            />
+            Isosceles
+          </label>
+          <label
+            ><input type="radio" name="question3" value="Scalene" />Scalene
           </label>
         </div>
       </form>

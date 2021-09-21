@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #fce7f3;
+  --secondary-color: #831843;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.nav-container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.navigation {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+.input-angle,
+.side-input {
+  padding: 0.8rem;
+  width: 70%;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#isTriangle-btn,
+#submit-btn,
+#hypotenuse-btn,
+#calulate-area-btn {
+  padding: 0.8rem 1.2rem;
+  color: white;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+}
+
+#output {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.question-container {
+  margin-bottom: 1.5rem;
+}

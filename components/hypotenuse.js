@@ -12,8 +12,7 @@ function calculateHypotenuse() {
     Number(sides[0].value),
     Number(sides[1].value)
   );
-  var hypotenuse = Math.sqrt(sidesValue);
-  console.log(hypotenuse);
+  var hypotenuse = Math.sqrt(sidesValue).toFixed(2);
   outputDiv.innerText =
     "The Hypotenuse of " +
     sides[0].value +
